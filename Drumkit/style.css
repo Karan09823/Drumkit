@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  height: 30vw;
+  width:100vw;
+  background-image:url(./audience-1853662.jpg);
+  background-size:cover;
+
+}
+.keys{
+  top:32vh;
+  width:95%;
+  position:relative;
+  height:20vh;
+  display:flex;
+  margin:20vh auto;
+  /*border removed*/
+  justify-content: space-evenly;/*important justify-content*/
+  align-items:center;/*important align-items*/
+}
+.key{
+  border-radius:0.5rem;
+  border:0.5rem solid yellow;
+  height: 90%;
+  width:8%;
+  text-align:center;
+  background-color:gainsboro;
+  transition:all 0.01s ease;
+
+}
+kbd{
+  display: block ;
+  font-size:4rem;
+  
+
+}
+span{
+  font-size:0.9rem;
+  color:blue;
+  text-transform:uppercase;
+  
+}
+.playing{
+  transform:scale(1.1);
+  border-color:cornsilk;
+  box-shadow:0 0 1rem yellowgreen;
+}
